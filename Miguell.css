@@ -124,14 +124,8 @@ a {
     margin-top: 0;
 }
 
+/* Foto inteira, sem cortar */
 .cartao img {
     width: 100%;
-    height: 180px;
-    object-fit: cover;
-}
-
-/* Escudo inteiro, sem cortar */
-.cartao img.escudo {
-    object-fit: contain;
-    background-color: #ffffff;
+    height: auto;
 }
